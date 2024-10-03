@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+body{
+    background-color: rgba(0, 174, 255, 0.492);
+}
+h1, p {
+    color: whitesmoke;
+}
+.bt button{
+    background-color: rgb(147, 198, 234);
+    color: white;
+    border: 1px solid rgb(24, 149, 239);
+    font-size: x-large;
+    border-radius: 5px;
+    padding: 8px 18px ;  
+    /* padding interior  */
+    margin: 2rem;
+    /* margin para o exterior */
+}
+.bt button:hover{
+    background-color: rgb(24, 149, 239);
+}
+.container-pai{
+    display: flex;
+    justify-content: center;
+    /* justify é usado para o eicho principal */
+    align-items: center;
+    /* align é usado para o eixo secundário */
+    height: 100vh;
+    flex-direction: column;
+ 
+
+}
+.container-filho{
+    text-align: center;
+    border: 2px solid black;
+    padding: 60px;
+   
+}

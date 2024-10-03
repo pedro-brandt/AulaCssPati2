@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+div{
+
+    text-align: center;
+    color: rgb(14, 12, 12);
+}
+h1,p{
+    color: white;
+}
+button{
+    background: #369add;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 15px;
+    border: rgb(78, 78, 214) 2px solid;
+    padding: 12px;
+    margin-bottom: 2rem;
+
+}
+
+/* ------------------------------- */
+/* "." é usado para classe */
+.div2{
+    border:  solid #369add ;
+    border-width: 30px;
+    border-style: solid;
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.bt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bt button:hover{
+background-color: #369add59 ;
+}
+
+
+
